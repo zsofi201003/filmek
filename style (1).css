@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.film {
+    background-color: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #003366;
+}
+
+.film h2 {
+    color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+.film img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    filter: grayscale(40%);
+}
+
+/* Hover effekt */
+.film img:hover {
+    transform: scale(1.05) rotate(1deg);
+    filter: grayscale(0%);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
